@@ -19,8 +19,7 @@ class Library {
                 "Bert Bates, Katherine Sierra",
                 2008,
                 851,
-                "McGraw-Hill Osborne Media",
-                "9780071591065");
+                "McGraw-Hill Osborne Media");
 
         System.out.println("Książki dostępne w bibliotece:");
         book1.printInfo();
