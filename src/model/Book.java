@@ -8,6 +8,10 @@ public class Book {
     private String publisher;
     private String isbn;
 
+    public Book() {
+
+    }
+
     public Book(String title, String author, int releaseDate, int pages, String publisher, String isbn) {
         this(title, author, releaseDate, pages, publisher);
         this.isbn = isbn;

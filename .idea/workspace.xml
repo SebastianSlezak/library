@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45a00aba-ea6f-474e-823b-2ac968a9db91" name="Changes" comment="version 0.4 - Constructor overload has been added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="45a00aba-ea6f-474e-823b-2ac968a9db91" name="Changes" comment="version 0.5 - The access modifiers of classes and fields in the Book class have been changed, a package has been added, and getters and setters have been created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +69,7 @@
       <workItem from="1677179354670" duration="20000" />
       <workItem from="1677183296656" duration="994000" />
       <workItem from="1677185906267" duration="4000" />
-      <workItem from="1677337825438" duration="661000" />
+      <workItem from="1677337825438" duration="1052000" />
     </task>
     <task id="LOCAL-00001" summary="The first book object has been added">
       <created>1677106813228</created>
@@ -94,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677183801074</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version 0.5 - The access modifiers of classes and fields in the Book class have been changed, a package has been added, and getters and setters have been created">
+      <created>1677340380865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677340380865</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +120,7 @@
     <MESSAGE value="The first book object has been added" />
     <MESSAGE value="version 0.3 - Added Book constructor and method to display available books in the library" />
     <MESSAGE value="version 0.4 - Constructor overload has been added" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.4 - Constructor overload has been added" />
+    <MESSAGE value="version 0.5 - The access modifiers of classes and fields in the Book class have been changed, a package has been added, and getters and setters have been created" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0.5 - The access modifiers of classes and fields in the Book class have been changed, a package has been added, and getters and setters have been created" />
   </component>
 </project>
