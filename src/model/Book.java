@@ -74,9 +74,9 @@ public class Book {
     }
 
     public void printInfo() {
-        String info = title + "; " + author + "; " + releaseDate + "; " + pages + "; " + publisher;
+        String info = title + "; " + author + "; " + releaseDate + "; " + pages + "; " + publisher + "; ";
         if (isbn != null) {
-            info = info + "; ";
+            info += isbn + "; ";
         }
         System.out.println(info);
     }
