@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45a00aba-ea6f-474e-823b-2ac968a9db91" name="Changes" comment="version 0.6.1 - a books table has been added in which books will be stored">
+    <list default="true" id="45a00aba-ea6f-474e-823b-2ac968a9db91" name="Changes" comment="version 0.7 - The DataReader class has been added, which can be used to add books from the console using Scanner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/DataReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,29 +35,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Sebastian/IdeaProjects/library",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sebastian/IdeaProjects/library&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.LibraryApp">
     <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.Library" />
+      <option name="MAIN_CLASS_NAME" value="model.Library" />
       <module name="library" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.LibraryApp" />
+      <module name="library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryApp" />
         <item itemvalue="Application.Library" />
       </list>
     </recent_temporary>
@@ -80,7 +94,8 @@
       <workItem from="1677619363965" duration="147000" />
       <workItem from="1677796564380" duration="760000" />
       <workItem from="1677867655601" duration="596000" />
-      <workItem from="1677966061927" duration="1118000" />
+      <workItem from="1677966061927" duration="1355000" />
+      <workItem from="1678056179254" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="The first book object has been added">
       <created>1677106813228</created>
@@ -124,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677796730383</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="version 0.7 - The DataReader class has been added, which can be used to add books from the console using Scanner">
+      <created>1677967312563</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677967312563</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +170,7 @@
     <MESSAGE value="version 0.5 - The access modifiers of classes and fields in the Book class have been changed, a package has been added, and getters and setters have been created" />
     <MESSAGE value="version 0.6 - Added a conditional statement in the printInfo() method in the Book class to prevent null from being displayed when the isbn field is empty" />
     <MESSAGE value="version 0.6.1 - a books table has been added in which books will be stored" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.6.1 - a books table has been added in which books will be stored" />
+    <MESSAGE value="version 0.7 - The DataReader class has been added, which can be used to add books from the console using Scanner" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0.7 - The DataReader class has been added, which can be used to add books from the console using Scanner" />
   </component>
 </project>
