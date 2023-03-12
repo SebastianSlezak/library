@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45a00aba-ea6f-474e-823b-2ac968a9db91" name="Changes" comment="version 0.8 - Loops have been added in order to reselect options">
+    <list default="true" id="45a00aba-ea6f-474e-823b-2ac968a9db91" name="Changes" comment="version 0.9 - The static specifier was added to the final fields">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/LibraryControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Sebastian/IdeaProjects/javastart",
+    "last_opened_file_path": "C:/Users/Sebastian/IdeaProjects/library",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,6 +99,9 @@
       <workItem from="1677966061927" duration="1355000" />
       <workItem from="1678056179254" duration="1431000" />
       <workItem from="1678129383062" duration="602000" />
+      <workItem from="1678294767361" duration="861000" />
+      <workItem from="1678395935127" duration="77000" />
+      <workItem from="1678641056807" duration="1346000" />
     </task>
     <task id="LOCAL-00001" summary="The first book object has been added">
       <created>1677106813228</created>
@@ -152,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678057089403</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="version 0.9 - The static specifier was added to the final fields">
+      <created>1678295034922</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678295034922</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +192,7 @@
     <MESSAGE value="version 0.6.1 - a books table has been added in which books will be stored" />
     <MESSAGE value="version 0.7 - The DataReader class has been added, which can be used to add books from the console using Scanner" />
     <MESSAGE value="version 0.8 - Loops have been added in order to reselect options" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.8 - Loops have been added in order to reselect options" />
+    <MESSAGE value="version 0.9 - The static specifier was added to the final fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0.9 - The static specifier was added to the final fields" />
   </component>
 </project>
