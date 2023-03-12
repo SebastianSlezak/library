@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45a00aba-ea6f-474e-823b-2ac968a9db91" name="Changes" comment="version 0.9 - The static specifier was added to the final fields">
+    <list default="true" id="45a00aba-ea6f-474e-823b-2ac968a9db91" name="Changes" comment="version 0.10 - Inheritance and a Magazine class for adding and displaying magazines have been added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/LibraryControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/DataReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Publication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,7 @@
       <workItem from="1678129383062" duration="602000" />
       <workItem from="1678294767361" duration="861000" />
       <workItem from="1678395935127" duration="77000" />
-      <workItem from="1678641056807" duration="1346000" />
+      <workItem from="1678641056807" duration="1499000" />
     </task>
     <task id="LOCAL-00001" summary="The first book object has been added">
       <created>1677106813228</created>
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678295034922</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="version 0.10 - Inheritance and a Magazine class for adding and displaying magazines have been added">
+      <created>1678642478924</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678642478924</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +199,7 @@
     <MESSAGE value="version 0.7 - The DataReader class has been added, which can be used to add books from the console using Scanner" />
     <MESSAGE value="version 0.8 - Loops have been added in order to reselect options" />
     <MESSAGE value="version 0.9 - The static specifier was added to the final fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.9 - The static specifier was added to the final fields" />
+    <MESSAGE value="version 0.10 - Inheritance and a Magazine class for adding and displaying magazines have been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0.10 - Inheritance and a Magazine class for adding and displaying magazines have been added" />
   </component>
 </project>
