@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45a00aba-ea6f-474e-823b-2ac968a9db91" name="Changes" comment="version 0.10 - Inheritance and a Magazine class for adding and displaying magazines have been added">
+    <list default="true" id="45a00aba-ea6f-474e-823b-2ac968a9db91" name="Changes" comment="version 0.11 - Super() has been added in the constructors of the Book and Magazine classes to improve code readability">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Publication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +101,9 @@
       <workItem from="1678294767361" duration="861000" />
       <workItem from="1678395935127" duration="77000" />
       <workItem from="1678641056807" duration="1499000" />
+      <workItem from="1678650092355" duration="931000" />
+      <workItem from="1678725368251" duration="670000" />
+      <workItem from="1678752366018" duration="477000" />
     </task>
     <task id="LOCAL-00001" summary="The first book object has been added">
       <created>1677106813228</created>
@@ -172,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678642478924</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="version 0.11 - Super() has been added in the constructors of the Book and Magazine classes to improve code readability">
+      <created>1678650432191</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678650432191</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +210,7 @@
     <MESSAGE value="version 0.8 - Loops have been added in order to reselect options" />
     <MESSAGE value="version 0.9 - The static specifier was added to the final fields" />
     <MESSAGE value="version 0.10 - Inheritance and a Magazine class for adding and displaying magazines have been added" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.10 - Inheritance and a Magazine class for adding and displaying magazines have been added" />
+    <MESSAGE value="version 0.11 - Super() has been added in the constructors of the Book and Magazine classes to improve code readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0.11 - Super() has been added in the constructors of the Book and Magazine classes to improve code readability" />
   </component>
 </project>
